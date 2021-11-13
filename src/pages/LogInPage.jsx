@@ -1,4 +1,3 @@
-import LoginForm from '../components/LoginForm';
 import styles from './LoginPage.module.css';
 
 function LogInPage() {
@@ -11,7 +10,6 @@ function LogInPage() {
         </div>
 
         <div className={styles.formWrapper}>
-          <LoginForm />
         </div>
       </div>
     </div>
