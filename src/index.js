@@ -5,8 +5,8 @@ import LogInPage from './App2'
 
 ReactDOM.render(
   <React.StrictMode>
-    <LogInPage />
     <RegisterPage />
+    <LogInPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
