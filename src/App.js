@@ -1,4 +1,5 @@
 import styles from './pages/RegisterPage.module.css';
+import RegistrationForm from '../src/components/RegistrationForm';
 
 function RegisterPage() {
   return (
@@ -10,6 +11,7 @@ function RegisterPage() {
         </div>
 
         <div className={styles.formWrapper}>
+        <RegistrationForm />
         </div>
       </div>
     </div>
