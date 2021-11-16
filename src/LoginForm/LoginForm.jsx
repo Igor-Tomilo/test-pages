@@ -1,4 +1,4 @@
-// import routes from '../../routes';
+// import routes from ''; надо вписать роуты
 import { Link } from 'react-router-dom';
 // import { useDispatch } from 'react-redux';
 // import { authOperations } from '../../redux/auth';
@@ -118,8 +118,8 @@ const LoginForm = () => {
           }}
         />
         <div className={styles.btnWrapper}>
-          <Button
-            variant="contained"
+          <Button className={styles.button}
+            variant="outlined"
             color="primary"
             type="submit"
             style={{
@@ -132,9 +132,9 @@ const LoginForm = () => {
           >
             Sign in
           </Button>
-          <Button
-          variant="contained"
-          color="light"
+          <Button className={styles.button}
+          variant="outlined"
+          color="primary"
           type="submit"
           style={{
             marginBottom: 20,
@@ -144,7 +144,7 @@ const LoginForm = () => {
             padding: '13px 68px',
           }}>
               {/* <Link  */}
-        {/* //   to={routes.register} className={styles.linkBtn} */}
+        {/* //   to={routes.register} className={styles.linkBtn} раскоментировать ккогда будут роуты */} 
           {/* > */}
             Sign Up
           {/* </Link> */}
