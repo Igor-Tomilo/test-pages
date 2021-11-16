@@ -1,4 +1,5 @@
 import styles from './pages/LoginPage.module.css';
+import LoginForm from './LoginForm';
 
 function LogInPage() {
   return (
@@ -10,6 +11,7 @@ function LogInPage() {
         </div>
 
         <div className={styles.formWrapper}>
+        <LoginForm/>
         </div>
       </div>
     </div>
